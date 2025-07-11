@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lavanya's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="Images/Img-1.jpg" type="image/x-icon">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<header class="navbar">
+  <div class="brand">
+    <h1>Lavanya's Portfolio</h1>
+  </div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#recommendations">Recommendations</a></li>
+      <li><a href="#contact-form">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+  <!-- Task 3: About Me -->
+<section id="about" class="about-section">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>Lavanya</h2>
+      <p>
+        Hi! I'm Lavanya, a passionate and curious B.Tech Computer Science student with a strong interest in web development, programming, and tech-driven solutions. I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+      </p>
+    </div>
+    <img src="C:\Users\kumar_elkoozd\Downloads\manshi-portfolio\manshi-portfolio\Images\Img-2.jpg" alt="Profile Picture">
+  </div>
+</section>
+
+
+  <!-- Task 4: Skills -->
+<section id="skills" class="skills-section">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="HTML">
+      <p>HTML</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS">
+      <p>CSS</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" alt="Python">
+      <p>Python</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java">
+      <p>Java</p>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Task 5: Projects -->
+<section id="projects" class="projects-section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="Images/attendence-managment-system-img.webp" alt="Student Attendance System">
+      <div class="project-info">
+        <h3>Student Attendance System</h3>
+        <p>Developed using Java and MySQL to manage student records efficiently with real-time tracking and report generation.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="Images/portfolio-img.png" alt="Portfolio Website">
+      <div class="project-info">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio site created using HTML, CSS, and JavaScript to showcase skills, projects, and contact details.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Task 6: Recommendations -->
+  <div id="recommendations" class="recommendations">
+    <h2>Recommendations</h2>
+    <div id="recList">
+      <div class="recommendation">Lavanya is a dedicated and enthusiastic developer!</div>
+      <div class="recommendation">Her problem-solving skills are exceptional.</div>
+      <div class="recommendation">A great team player with attention to detail.</div>
+    </div>
+
+    <!-- Task 7: New Recommendation Form -->
+<section class="recommend-section">
+  <h3>Leave a Recommendation:</h3>
+  <textarea id="newRec" rows="4" cols="50" placeholder="Write your recommendation..."></textarea><br>
+  <button onclick="addRecommendation()">Submit</button>
+</section>
+
+<!-- Task 6: Recommendations Display -->
+<section class="recommendations">
+  <h2>What People Say</h2>
+  <div id="recommendationList" class="recommendation-list">
+    <!-- Recommendations will appear here -->
+  </div>
+</section>
+
+<!-- Task 9: Pop-up -->
+<div id="popup" class="popup">Thank you for leaving a recommendation!</div>
+
+<!-- Task 10: Contact Form -->
+<section id="contact-form" class="contact-form">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="4" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Lavanya's Portfolio. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#recommendations">Recommendations</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+
+   <script src="scripts.js"></script>
+</body>
+</html>
